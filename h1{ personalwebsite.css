@@ -1,0 +1,36 @@
+p.solid {border-style: solid;}
+p.mix {border-style: dotted dashed solid double;}
+.border-style {
+    background: black;
+    border:1px solid black;
+
+}
+.border-style ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.border-style ul a {
+    display: block;
+    background: black;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+.border-style ul a:hover {
+    background: blue;
+    color: yellow;
+}
+div.a {
+    text-align: center;
+  }
+  div.b {
+    text-align: left;
+  }
+  div.c {
+    text-align: left;
+  }
+  div.d {
+    text-align: center;
+  }
